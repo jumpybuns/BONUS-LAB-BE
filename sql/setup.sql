@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS receivers; 
+
+CREATE TABLE receivers (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  manufacturer TEXT NOT NULL,
+  model TEXT NOT NULL,
+  country TEXT NOT NULL,
+  year TEXT NOT NULL
+
+)
