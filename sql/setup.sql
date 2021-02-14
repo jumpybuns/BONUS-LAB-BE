@@ -5,6 +5,6 @@ CREATE TABLE receivers (
   manufacturer TEXT NOT NULL,
   model TEXT NOT NULL,
   country TEXT NOT NULL,
-  year INTEGER NOT NULL
+  year TEXT NOT NULL
 
 )
